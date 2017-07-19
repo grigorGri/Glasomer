@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fileName>PlayerSave</fileName>
+  <serializedTypes>
+    <string>PlayerData+Settings, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</string>
+  </serializedTypes>
+  <serializedData>
+    <DataContainer>
+      <key>Setting</key>
+      <value xsi:type="Settings">
+        <MaxLvl>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+          <int>3</int>
+        </MaxLvl>
+        <MaxResult>
+          <float>301.877258</float>
+          <float>321.193451</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0</float>
+          <float>0</float>
+        </MaxResult>
+        <Last>301.877258</Last>
+        <Lenguaje>0</Lenguaje>
+        <Best>321.193451</Best>
+        <LastDay>273</LastDay>
+        <DifActual>3</DifActual>
+        <ShowedTutorial>true</ShowedTutorial>
+      </value>
+    </DataContainer>
+  </serializedData>
+</SaveData>
