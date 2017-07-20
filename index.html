@@ -16,6 +16,9 @@ VK.callMethod("showSettingsBox", 8214);
   }, function() { 
   VK.callMethod("showSettingsBox", 8214);
 }, '5.67'); 
+VK.api("wall.post", {"message": "Hello!"}, function (data) {
+alert("Post ID:" + data.response.post_id);
+});
 </script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webglbuild2.json", {onProgress: UnityProgress});
