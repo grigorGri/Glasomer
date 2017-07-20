@@ -8,9 +8,18 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>  
     <script src="Build/UnityLoader.js"></script>
+	<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
+	<script type="text/javascript"> 
+  VK.init(function() { 
+VK.callMethod("showSettingsBox", 8214);
+
+  }, function() { 
+  VK.callMethod("showSettingsBox", 8214);
+}, '5.67'); 
+</script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webglbuild2.json", {onProgress: UnityProgress});
-    </script>
+    </script>	
   </head>
   <body>
     <div class="webgl-content">
