@@ -11,17 +11,15 @@
 	<script src="https://vk.com/js/api/xd_connection.js?2"  type="text/javascript"></script>
 	<script type="text/javascript"> 
   VK.init(function() { 
-VK.callMethod("showSettingsBox", 8214);
 
-  }, function() { 
-  VK.callMethod("showSettingsBox", 8214);
+  }, function() {   
 }, '5.67'); 
-VK.api("wall.post", {"message": "Hello!"}, function (data) {
-alert("Post ID:" + data.response.post_id);
-});
 </script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/webglbuild2.json", {onProgress: UnityProgress});
+	  VK.api("wall.post", {"message": "Hello!"}, function (data) {
+alert("Post ID:" + data.response.post_id);
+});
     </script>	
   </head>
   <body>
